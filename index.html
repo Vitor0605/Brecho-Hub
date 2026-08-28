@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Brechó escolar para dar uma nova história a uniformes e materiais." />
+    <title>ReVeste | Brechó Escolar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="announcement"><span>♻</span> Material bom merece uma nova história <a href="#vender">Quero anunciar</a></div>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="ReVeste - página inicial"><span class="brand-mark">R</span><span>re<span>veste</span></span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#catalogo">Explorar</a>
+        <a href="#minhas-vendas">Minhas vendas</a>
+        <a href="#vender">Vender</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema"><span class="sun">☼</span><span class="moon">☾</span></button>
+        <button class="favorite-button" type="button" aria-label="Favoritos">♡<span id="favoriteCount">0</span></button>
+        <a class="button button-small" href="#vender">Anunciar item <span>↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> BRECHÓ ESCOLAR</p>
+          <h1>Uniforme usado.<br /><em>História nova.</em></h1>
+          <p class="hero-text">O lugar mais simples para comprar e vender uniformes e materiais escolares que ainda têm muito a oferecer.</p>
+          <div class="hero-actions">
+            <a class="button" href="#catalogo">Explorar achados <span>→</span></a>
+            <a class="text-link" href="#vender">Quero vender <span>↗</span></a>
+          </div>
+          <div class="hero-trust"><div class="avatars"><i>G</i><i>M</i><i>L</i><i>+</i></div><p><strong>+250 famílias</strong><br />dando novos caminhos aos seus itens</p></div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-sticker sticker-top">100%<br /><small>reaproveitado</small></div>
+          <img class="hero-image" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1000&q=85" alt="Estudantes usando uniforme escolar" />
+          <div class="hero-card"><span class="card-icon">♻</span><p>Bom para o bolso.<br /><strong>Melhor para o planeta.</strong></p></div>
+          <div class="hero-sticker sticker-bottom">DESDE<br />R$ 8</div>
+        </div>
+      </section>
+
+      <section class="categories section-shell" aria-label="Categorias">
+        <a href="#catalogo" data-category="Uniformes"><span class="category-icon">♙</span><strong>Uniformes</strong><small>Camisas, calças e mais</small><b>→</b></a>
+        <a href="#catalogo" data-category="Materiais"><span class="category-icon">✎</span><strong>Materiais</strong><small>Mochilas, livros e estojos</small><b>→</b></a>
+        <a href="#catalogo" data-category="Calçados"><span class="category-icon">◒</span><strong>Calçados</strong><small>Tênis e sapatos</small><b>→</b></a>
+        <a href="#catalogo" data-category="Todos"><span class="category-icon">✦</span><strong>Achados</strong><small>Itens que acabaram de chegar</small><b>→</b></a>
+      </section>
+
+      <section class="catalog section-shell" id="catalogo">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> EM DESTAQUE</p><h2>Achados que valem a pena</h2></div><a href="#catalogo" class="text-link">Ver todos <span>→</span></a></div>
+        <div class="filter-row" aria-label="Filtrar catálogo">
+          <button type="button" class="filter active" data-filter="Todos">Todos</button><button type="button" class="filter" data-filter="Uniformes">Uniformes</button><button type="button" class="filter" data-filter="Materiais">Materiais</button><button type="button" class="filter" data-filter="Calçados">Calçados</button>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+        <div class="catalog-note">Mostrando itens disponíveis agora · atualizamos os anúncios todos os dias</div>
+      </section>
+
+      <section class="steps-section">
+        <div class="section-shell steps-wrap"><div><p class="eyebrow light"><span></span> É BEM SIMPLES</p><h2>Desapegar faz bem.<br />E aqui é fácil.</h2><a class="button button-white" href="#vender">Criar meu anúncio <span>→</span></a></div><div class="steps"><article><span>01</span><div><h3>Conte sobre o item</h3><p>Preencha os dados e conte como ele está.</p></div></article><article><span>02</span><div><h3>Publique gratuitamente</h3><p>Seu anúncio aparece na vitrine na hora.</p></div></article><article><span>03</span><div><h3>Combine com quem quer</h3><p>O contato é feito direto pelo WhatsApp.</p></div></article></div></div>
+      </section>
+
+      <section class="sell-section section-shell" id="vender">
+        <div class="sell-intro"><p class="eyebrow"><span></span> ANUNCIE SEM CUSTO</p><h2>Pronto para<br /><em>desapegar?</em></h2><p>Crie um anúncio simples e encontre uma nova casa para aquele uniforme ou material que ficou parado.</p><div class="tip"><span>✦</span><p><strong>Dica rápida</strong><br />Fotos claras e descrição sincera ajudam seu item a encontrar alguém mais rápido.</p></div></div>
+        <form class="sell-form" id="sellForm">
+          <div class="form-heading"><h3>Seu novo anúncio</h3><span>Campos obrigatórios *</span></div>
+          <div class="form-grid"><label>O que você quer vender? *<input required name="title" placeholder="Ex.: Camisa uniforme Colégio..." /></label><label>Categoria *<select required name="category"><option value="" selected disabled>Selecione uma categoria</option><option>Uniformes</option><option>Materiais</option><option>Calçados</option></select></label><label>Preço (R$) *<input required name="price" type="number" min="1" step="0.01" placeholder="0,00" /></label><label>Condição do item *<select required name="condition"><option value="" selected disabled>Selecione</option><option>Como novo</option><option>Muito bom</option><option>Bom</option><option>Com sinais de uso</option></select></label><label class="full">Descrição *<textarea required name="description" rows="3" placeholder="Tamanho, marca, detalhes importantes..." ></textarea></label></div>
+          <div class="contact-divider"><span>Seus dados para contato</span></div>
+          <div class="form-grid"><label>Seu nome *<input required name="seller" placeholder="Como podemos te chamar?" /></label><label>WhatsApp *<input required name="phone" type="tel" placeholder="(00) 00000-0000" /></label><label class="full">Bairro ou região *<input required name="location" placeholder="Ex.: Centro, São Paulo - SP" /></label></div>
+          <label class="check-label"><input required type="checkbox" /> <span>Confirmo que as informações são verdadeiras e aceito publicar este anúncio.</span></label>
+          <button class="button form-button" type="submit">Publicar anúncio <span>→</span></button>
+          <p class="form-footnote">Você poderá acompanhar o anúncio na aba “Minhas vendas”.</p>
+        </form>
+      </section>
+
+      <section class="sales-section section-shell" id="minhas-vendas">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> ÁREA DO VENDEDOR</p><h2>Minhas vendas</h2><p class="section-description">Acompanhe seus anúncios publicados neste dispositivo.</p></div><a href="#vender" class="button button-small">+ Novo anúncio</a></div>
+        <div class="sales-empty" id="salesEmpty"><span>⌁</span><h3>Ainda não há anúncios seus</h3><p>Quando publicar um item, ele aparecerá aqui.</p><a class="text-link" href="#vender">Criar primeiro anúncio <span>→</span></a></div>
+        <div class="sales-grid" id="salesGrid"></div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#inicio"><span class="brand-mark">R</span><span>re<span>veste</span></span></a><p>Brechó escolar feito para circular o que ainda é bom.</p><p>© 2026 ReVeste</p></footer>
+    <div class="toast" id="toast" role="status"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
