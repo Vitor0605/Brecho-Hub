@@ -48,15 +48,17 @@
 
       <section class="categories section-shell" aria-label="Categorias">
         <a href="#catalogo" data-category="Uniformes"><span class="category-icon">♙</span><strong>Uniformes</strong><small>Camisas, calças e mais</small><b>→</b></a>
-        <a href="#catalogo" data-category="Materiais"><span class="category-icon">✎</span><strong>Materiais</strong><small>Mochilas, livros e estojos</small><b>→</b></a>
+        <a href="#catalogo" data-category="Livros"><span class="category-icon">▤</span><strong>Livros</strong><small>Leitura e didáticos</small><b>→</b></a>
+        <a href="#catalogo" data-category="Apostilas"><span class="category-icon">▥</span><strong>Apostilas</strong><small>Por série e vestibular</small><b>→</b></a>
+        <a href="#catalogo" data-category="Materiais"><span class="category-icon">✎</span><strong>Materiais</strong><small>Mochilas e estojos</small><b>→</b></a>
         <a href="#catalogo" data-category="Calçados"><span class="category-icon">◒</span><strong>Calçados</strong><small>Tênis e sapatos</small><b>→</b></a>
-        <a href="#catalogo" data-category="Todos"><span class="category-icon">✦</span><strong>Achados</strong><small>Itens que acabaram de chegar</small><b>→</b></a>
+        <a href="#catalogo" data-category="Todos"><span class="category-icon">✦</span><strong>Achados</strong><small>Itens recém-chegados</small><b>→</b></a>
       </section>
 
       <section class="catalog section-shell" id="catalogo">
         <div class="section-heading"><div><p class="eyebrow"><span></span> EM DESTAQUE</p><h2>Achados que valem a pena</h2></div><a href="#catalogo" class="text-link">Ver todos <span>→</span></a></div>
         <div class="filter-row" aria-label="Filtrar catálogo">
-          <button type="button" class="filter active" data-filter="Todos">Todos</button><button type="button" class="filter" data-filter="Uniformes">Uniformes</button><button type="button" class="filter" data-filter="Materiais">Materiais</button><button type="button" class="filter" data-filter="Calçados">Calçados</button>
+          <button type="button" class="filter active" data-filter="Todos">Todos</button><button type="button" class="filter" data-filter="Uniformes">Uniformes</button><button type="button" class="filter" data-filter="Livros">Livros</button><button type="button" class="filter" data-filter="Apostilas">Apostilas</button><button type="button" class="filter" data-filter="Materiais">Materiais</button><button type="button" class="filter" data-filter="Calçados">Calçados</button>
         </div>
         <div class="product-grid" id="productGrid"></div>
         <div class="catalog-note">Mostrando itens disponíveis agora · atualizamos os anúncios todos os dias</div>
@@ -70,7 +72,7 @@
         <div class="sell-intro"><p class="eyebrow"><span></span> ANUNCIE SEM CUSTO</p><h2>Pronto para<br /><em>desapegar?</em></h2><p>Crie um anúncio simples e encontre uma nova casa para aquele uniforme ou material que ficou parado.</p><div class="tip"><span>✦</span><p><strong>Dica rápida</strong><br />Fotos claras e descrição sincera ajudam seu item a encontrar alguém mais rápido.</p></div></div>
         <form class="sell-form" id="sellForm">
           <div class="form-heading"><h3>Seu novo anúncio</h3><span>Campos obrigatórios *</span></div>
-          <div class="form-grid"><label>O que você quer vender? *<input required name="title" placeholder="Ex.: Camisa uniforme Colégio..." /></label><label>Categoria *<select required name="category"><option value="" selected disabled>Selecione uma categoria</option><option>Uniformes</option><option>Materiais</option><option>Calçados</option></select></label><label>Preço (R$) *<input required name="price" type="number" min="1" step="0.01" placeholder="0,00" /></label><label>Condição do item *<select required name="condition"><option value="" selected disabled>Selecione</option><option>Como novo</option><option>Muito bom</option><option>Bom</option><option>Com sinais de uso</option></select></label><label class="full">Descrição *<textarea required name="description" rows="3" placeholder="Tamanho, marca, detalhes importantes..." ></textarea></label></div>
+          <div class="form-grid"><label>O que você quer vender? *<input required name="title" placeholder="Ex.: Camisa uniforme Colégio..." /></label><label>Categoria *<select required name="category"><option value="" selected disabled>Selecione uma categoria</option><option>Uniformes</option><option>Livros</option><option>Apostilas</option><option>Materiais</option><option>Calçados</option></select></label><label>Preço (R$) *<input required name="price" type="number" min="1" step="0.01" placeholder="0,00" /></label><label>Condição do item *<select required name="condition"><option value="" selected disabled>Selecione</option><option>Como novo</option><option>Muito bom</option><option>Bom</option><option>Com sinais de uso</option></select></label><label class="full">Descrição *<textarea required name="description" rows="3" placeholder="Tamanho, marca, detalhes importantes..." ></textarea></label></div>
           <div class="contact-divider"><span>Seus dados para contato</span></div>
           <div class="form-grid"><label>Seu nome *<input required name="seller" placeholder="Como podemos te chamar?" /></label><label>WhatsApp *<input required name="phone" type="tel" placeholder="(00) 00000-0000" /></label><label class="full">Bairro ou região *<input required name="location" placeholder="Ex.: Centro, São Paulo - SP" /></label></div>
           <label class="check-label"><input required type="checkbox" /> <span>Confirmo que as informações são verdadeiras e aceito publicar este anúncio.</span></label>

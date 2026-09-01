@@ -3,8 +3,16 @@ import './style.css';
 const products = [
   { id: 1, title: 'Camisa polo azul', category: 'Uniformes', price: 28, condition: 'Muito bom', school: 'Colégio Horizonte', image: 'https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?auto=format&fit=crop&w=700&q=80', color: 'azul' },
   { id: 2, title: 'Mochila lilás', category: 'Materiais', price: 45, condition: 'Como nova', school: 'Retirada no Centro', image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80', color: 'lilas' },
-  { id: 3, title: 'Kit de livros 7º ano', category: 'Materiais', price: 65, condition: 'Bom', school: 'Sistema Anglo', image: 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=80', color: 'amarelo' },
+  { id: 3, title: 'O Pequeno Príncipe', category: 'Livros', price: 18, condition: 'Muito bom', school: 'Leitura juvenil', image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=80', color: 'amarelo' },
   { id: 4, title: 'Tênis escolar preto', category: 'Calçados', price: 38, condition: 'Muito bom', school: 'Tam. 35', image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80', color: 'preto' }
+  ,{ id: 5, title: 'Apostilas Poliedro 2º ano', category: 'Apostilas', price: 95, condition: 'Bom', school: 'Ensino médio', image: 'https://images.unsplash.com/photo-1455885666463-0b0b3fc1a9d9?auto=format&fit=crop&w=700&q=80', color: 'azul' }
+  ,{ id: 6, title: 'Diário de um Banana — Vol. 1', category: 'Livros', price: 22, condition: 'Como novo', school: 'Leitura juvenil', image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80', color: 'lilas' }
+  ,{ id: 7, title: 'Matemática — Projeto Araribá 7º', category: 'Livros', price: 34, condition: 'Muito bom', school: '7º ano', image: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=700&q=80', color: 'azul' }
+  ,{ id: 8, title: 'Apostila ENEM: Linguagens', category: 'Apostilas', price: 30, condition: 'Sem anotações', school: 'Pré-vestibular', image: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=700&q=80', color: 'amarelo' }
+  ,{ id: 9, title: 'Harry Potter e a Pedra Filosofal', category: 'Livros', price: 29, condition: 'Bom', school: 'Leitura juvenil', image: 'https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?auto=format&fit=crop&w=700&q=80', color: 'preto' }
+  ,{ id: 10, title: 'Ciências Naturais — 6º ano', category: 'Livros', price: 26, condition: 'Muito bom', school: 'Ensino fundamental', image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=700&q=80', color: 'azul' }
+  ,{ id: 11, title: 'Apostila Objetivo: Matemática', category: 'Apostilas', price: 48, condition: 'Bom', school: '3º ano / ENEM', image: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=700&q=80', color: 'lilas' }
+  ,{ id: 12, title: 'Dom Casmurro — Machado de Assis', category: 'Livros', price: 15, condition: 'Como novo', school: 'Literatura brasileira', image: 'https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=700&q=80', color: 'amarelo' }
 ];
 
 const productGrid = document.querySelector('#productGrid');
